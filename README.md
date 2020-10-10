@@ -1,7 +1,7 @@
 # MVICore
 [![Version](https://jitpack.io/v/ikakus/mvicore.svg)](https://jitpack.io/#ikakus/mvicore)
 [![Build Status](https://travis-ci.org/ikakus/MVICore.svg?branch=master)](https://travis-ci.org/ikakus/MVICore)
-[![License](https://img.shields.io/badoo/License-Apache%202.0-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0)
 
 ## What's this?
 
@@ -37,27 +37,27 @@ allprojects {
 Add the dependencies:
 - Framework:
 ```groovy
-implementation 'com.github.badoo.mvicore:mvicore:{latest-version}'
+implementation 'com.github.ikakus.mvicore:mvicore:{latest-version}'
 ```
 
 - Binder (for versions higher than 1.2.4)
 ```groovy
-implementation 'com.github.badoo.mvicore:binder:{latest-version}'
+implementation 'com.github.ikakus.mvicore:binder:{latest-version}'
 ```
 
 - Helper classes for Android:
 ```groovy
-implementation 'com.github.badoo.mvicore:mvicore-android:{latest-version}'
+implementation 'com.github.ikakus.mvicore:mvicore-android:{latest-version}'
 ```
 
 - ModelWatcher for efficient view updates
 ```groovy
-implementation 'com.github.badoo.mvicore:mvicore-diff:{latest-version}'
+implementation 'com.github.ikakus.mvicore:mvicore-diff:{latest-version}'
 ```
 
 - Time Travel Debugger controls in a [DebugDrawer](https://github.com/palaima/DebugDrawer) module (You need to add the dependencies to DebugDrawer and configure it yourself before you can use this):
 ```groovy
-implementation 'com.github.badoo.mvicore:mvicore-debugdrawer:{latest-version}'
+implementation 'com.github.ikakus.mvicore:mvicore-debugdrawer:{latest-version}'
 ```
 
 ## Related articles & videos
