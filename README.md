@@ -4,6 +4,7 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0)
 
 ## What's this?
+This version is using **RxJava3**, compared to RxJava2 from original repo.
 
 MVICore is a modern, Kotlin-based MVI framework:
 - **Scaling with complexity**: operate with a single Reducer if needed, with the option of having the full power of additional components to handle more complex cases
